@@ -1,0 +1,20 @@
+{
+  "name": "tsx-module-resolution",
+  "scripts": {
+    "bun-ts": "bun index.ts",
+    "bun-mts": "bun index.mts",
+    "tsx-ts": "tsx index.ts",
+    "tsx-mts": "tsx index.mts",
+    "esbuild-ts": "esbuild index.ts --bundle --outfile=dist/index.js && node dist/index.js",
+    "esbuild-mts": "esbuild index.mts --bundle --outfile=dist/index.js && node dist/index.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.9",
+    "pkg": "file:./pkg",
+    "tsx": "^4.6.2",
+    "typescript": "https://typescript.visualstudio.com/cf7ac146-d525-443c-b23c-0d58337efebc/_apis/build/builds/159133/artifacts?artifactName=tgz&fileId=E2D1E8DDE14F0EE1B6FFCCA96420361C1928EB2DE88926AA69C405DCCD9AB2A502&fileName=/typescript-5.4.0-insiders.20231218.tgz"
+  },
+  "dependencies": {
+    "bun-types": "^1.0.18"
+  }
+}

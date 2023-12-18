@@ -1,0 +1,7 @@
+{
+  "name": "pkg",
+  "exports": {
+    "import": "./import.mjs",
+    "require": "./require.js"
+  }
+}
